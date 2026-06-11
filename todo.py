@@ -1,3 +1,10 @@
+# To do:
+# Fix ID system after deletions
+# Add a task edit feature
+# Add task priority feature which also reorders tasks
+# Add differnet list view options
+# Add undo feature
+
 import os
 import json
 import sys
@@ -101,7 +108,6 @@ def main():
         invalid_input()
         
     return
-
 
 if __name__ == "__main__":
     main()
